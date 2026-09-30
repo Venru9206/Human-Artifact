@@ -1,5 +1,14 @@
 body {
-  background-color:#034ea2;
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(
+    to bottom,
+    #034ea2,
+    #303a99,
+    #5e2390,
+    #8b0d88,
+    #c00384);
+  background-attachment: fixed;
   font-family: Garamond;
   margin: 40px;
   color:
