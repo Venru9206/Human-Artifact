@@ -1,3 +1,4 @@
+@import url('https://googleapis.com');
 body {
   min-height: 100vh;
   margin: 0;
@@ -7,9 +8,80 @@ body {
     #303a99,
     #5e2390,
     #8b0d88,
-    #c00384);
+    #c00384    
+  );
   background-attachment: fixed;
-  font-family: Garamond;
-  margin: 40px;
-  color: #FFFFFF;
+  font-family: 'Rajdhani', sans-serif;
+  color: #ffffff;
+  overflow-x: hidden;
 }
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #ffffff;
+  
+  text-shadow: 
+    0 0 5px #fff, 
+    0 0 10px #fff, 
+    0 0 20px #00f0ff, 
+    0 0 40px #00f0ff, 
+    0 0 60px #00f0ff;
+  margin-top: 50px;
+}
+
+.subtitle {
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 3rem;
+  color: #ff00aa;
+  text-align: center;
+  display: block;
+  margin-top: -25px; 
+  transform: rotate(-5deg);
+  
+  text-shadow: 
+    0 0 5px #fff, 
+    0 0 15px #ff00aa, 
+    0 0 30px #ff00aa;
+}
+
+.content-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background: rgba(3, 10, 30, 0.7);
+  border-radius: 8px;
+  
+  border: 2px solid #ff00aa;
+  box-shadow: 
+    0 0 15px rgba(255, 0, 170, 0.4),
+    inset 0 0 15px rgba(0, 240, 255, 0.2);
+}
+
+/* 5. Cyberpunk/Synthwave CTA Button */
+.synth-btn {
+  display: inline-block;
+  font-family: 'Orbitron', sans-serif;
+  background: transparent;
+  color: #00f0ff;
+  border: 3px solid #00f0ff;
+  padding: 12px 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  border-radius: 0px; 
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+}
+
+.synth-btn:hover {
+  background: #00f0ff;
+  color: #031430;
+  box-shadow: 0 0 25px #00f0ff;
+  cursor: pointer;
+}
+
