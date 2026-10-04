@@ -131,3 +131,66 @@ h1 {
   box-shadow: 0 0 25px #00f0ff;
   cursor: pointer;
 }
+/* ==========================================
+   3. THE RETRO SYNTHWAVE SUN
+   ========================================== */
+.synth-sun {
+  width: 180px;
+  height: 180px;
+  margin: 20px auto -40px auto; /* Centers it and lets titles overlap slightly */
+  border-radius: 50%;
+  
+  /* Creates a brilliant neon yellow to hot pink gradient split */
+  background: linear-gradient(to bottom, #fffb00 0%, #ff00aa 100%);
+  box-shadow: 0 0 40px rgba(255, 0, 170, 0.7);
+  
+  /* The magic trick: a repeating linear gradient overlay to create the horizontal retro cuts */
+  mask-image: linear-gradient(to bottom, 
+    white 0%, white 70%, 
+    transparent 70%, transparent 75%, 
+    white 75%, white 83%, 
+    transparent 83%, transparent 89%, 
+    white 89%, white 94%, 
+    transparent 94%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, 
+    white 0%, white 65%, 
+    transparent 65%, transparent 72%, 
+    white 72%, white 80%, 
+    transparent 80%, transparent 87%, 
+    white 87%, white 93%, 
+    transparent 93%, transparent 100%);
+}
+
+/* ==========================================
+   4. SYSTEM FOOTER DECK
+   ========================================== */
+.system-deck {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px;
+  margin: 60px auto 30px auto;
+  padding: 15px 20px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  color: #00f0ff;
+  border-top: 1px dashed rgba(0, 240, 255, 0.4);
+}
+
+/* Glowing blinking dot for tech flavor */
+.pulse-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #00f0ff;
+  border-radius: 50%;
+  margin-right: 6px;
+  box-shadow: 0 0 8px #00f0ff;
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
