@@ -453,3 +453,10 @@ h1 {
   }
 }
 
+.info-intro {
+  max-width: 700px;         /* Prevents the lines of text from stretching too wide */
+  margin: 25px auto 0 auto; /* Centers the paragraph and adds space above it */
+  font-size: 1.2rem;        /* Makes it slightly larger than standard body text */
+  line-height: 1.6;
+  color: #cbd5e1;           /* Soft silver/white color for easy reading */
+}
