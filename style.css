@@ -194,3 +194,48 @@ h1 {
   0%, 100% { opacity: 0.3; }
   50% { opacity: 1; }
 }
+
+/* ==========================================
+   5. INFOGRAPHIC PAGE SPECIFIC LAYOUT
+   ========================================== */
+
+/* Pushes the graphic to center beautifully on the page */
+.infographic-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: calc(100vh - 80px); /* Subtracts the top-bar height */
+}
+
+/* Container ensuring the graphic has maximum space but stays crisp */
+.infographic-container {
+  width: 100%;
+  max-width: 1000px; /* Adjust this to match your graphic's perfect size */
+  background: rgba(3, 10, 30, 0.6);
+  border: 2px solid #00f0ff;
+  box-shadow: 0 0 25px rgba(0, 240, 255, 0.3);
+  padding: 20px;
+  border-radius: 4px;
+}
+
+/* Responsive Image Rule (handles pre-made graphic images) */
+.infographic-media {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Styling the back link button in the top left */
+.back-link {
+  color: #ff00aa;
+  text-decoration: none;
+  font-weight: 700;
+  text-shadow: 0 0 8px rgba(255, 0, 170, 0.6);
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: #ffffff;
+  text-shadow: 0 0 12px #fff;
+}
