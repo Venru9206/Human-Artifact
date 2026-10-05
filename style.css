@@ -93,7 +93,7 @@ h1 {
 .content-container {
   max-width: 600px;
   width: 100%;
-  padding: 30px;
+  padding: 20px;
   background: rgba(3, 10, 30, 0.75); /* Deep dark semi-transparent blue */
   border-radius: 8px;
   text-align: center;
