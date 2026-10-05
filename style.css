@@ -499,15 +499,19 @@ h1 {
   text-shadow: 0 0 10px #ff00aa;
 }
 
-/* Styled text for the person being quoted */
+/* Styled text for the person being quoted — Serious Cyberpunk variant */
 .quote-author {
   display: block;
   margin-top: 15px;
-  font-family: 'Mr Dafoe', cursive; /* Uses your awesome 80s cursive font */
-  font-size: 2.2rem;
-  color: #00f0ff;                  /* Electric cyan contrast */
+  font-family: 'Orbitron', sans-serif; /* Swapped from Mr Dafoe to your tech font */
+  font-size: 0.9rem;                   /* Made it smaller and tactical */
+  font-weight: 700;
+  text-transform: uppercase;           /* Gives it a strict, official data read-out look */
+  letter-spacing: 2px;                 /* Widens text for structural balance */
+  color: #00f0ff;                      /* Electric cyan contrast */
   text-align: right;
   font-style: normal;
-  transform: rotate(-2deg);
-  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+  transform: none;                     /* Removed the 80s cursive tilt */
+  text-shadow: 0 0 8px rgba(0, 240, 255, 0.6);
 }
+
