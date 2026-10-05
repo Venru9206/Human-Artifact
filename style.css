@@ -85,7 +85,7 @@ h1 {
     0 0 18px #00f0ff;
 
   /* 🛠️ THE FIX: Restricts how wide the subtitle container can grow */
-  max-width: 400px;           /* Sets a tight horizontal limit */
+  max-width: 800px;           /* Sets a tight horizontal limit */
   margin: 0 auto 40px auto;   /* "auto" on left/right keeps the shrunken block centered */
 }
 
