@@ -460,3 +460,54 @@ h1 {
   line-height: 1.6;
   color: #cbd5e1;           /* Soft silver/white color for easy reading */
 }
+
+/* ==========================================
+   10. SYNTHWAVE BLOCKQUOTE DESIGN
+   ========================================== */
+.quote-section {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.synth-quote {
+  position: relative;
+  max-width: 750px;
+  background: rgba(255, 0, 170, 0.03); /* Extremely subtle magenta backdrop */
+  border-left: 4px solid #ff00aa;       /* Hot pink accent line */
+  padding: 25px 35px 25px 45px;
+  margin: 0;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  font-style: italic;
+  color: #ffffff;
+  
+  /* Creates a soft pink ambient glow behind the box */
+  box-shadow: inset 10px 0 15px rgba(255, 0, 170, 0.05);
+}
+
+/* Giant aesthetic neon quote indicator */
+.quote-mark {
+  position: absolute;
+  left: 12px;
+  top: -10px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4rem;
+  color: #ff00aa;
+  opacity: 0.3;
+  line-height: 1;
+  text-shadow: 0 0 10px #ff00aa;
+}
+
+/* Styled text for the person being quoted */
+.quote-author {
+  display: block;
+  margin-top: 15px;
+  font-family: 'Mr Dafoe', cursive; /* Uses your awesome 80s cursive font */
+  font-size: 2.2rem;
+  color: #00f0ff;                  /* Electric cyan contrast */
+  text-align: right;
+  font-style: normal;
+  transform: rotate(-2deg);
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+}
